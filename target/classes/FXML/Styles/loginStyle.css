@@ -1,0 +1,7 @@
+.signIn {
+    -fx-background-radius: 20px !important;
+    -fx-background-color:  linear-gradient(to right top, #000acf, #002265, #000acf);
+}
+.signIn:hover{
+    -fx-background-color: #000acf;
+}
