@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Parent.View_ProgressController">
+   <children>
+      <BorderPane prefHeight="35.0" prefWidth="1280.0" style="-fx-background-color: #212121;">
+         <center>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="E-LEARNING MANAGEMENT SYSTEM" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Segoe UI Semibold" size="14.0" />
+               </font>
+            </Text>
+         </center>
+      </BorderPane>
+      <Pane prefHeight="825.0" prefWidth="1291.0">
+         <children>
+            <Label alignment="CENTER" layoutX="492.0" layoutY="46.0" prefHeight="65.0" prefWidth="307.0" text="VIEW PROGRESS" textAlignment="RIGHT" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button id="btn_back" fx:id="btn_back" layoutX="14.0" layoutY="46.0" mnemonicParsing="false" onMouseClicked="#back_btn_clicked" prefHeight="40.0" prefWidth="100.0" stylesheets="@../Styles/MenuSec.css" text="BACK" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="15.0" />
+               </font>
+            </Button>
+            <TableView fx:id="tableAssessment" editable="true" layoutX="22.0" layoutY="116.0" prefHeight="675.0" prefWidth="1245.0" style="-fx-background-color: GREY;">
+              <columns>
+                  <TableColumn fx:id="col_id" prefWidth="92.0" text="SERIAL NO." />
+                <TableColumn fx:id="col_coursename" prefWidth="118.0" text="COURSE NAME" />
+                <TableColumn fx:id="col_courseid" prefWidth="88.0" text="COURSE ID" />
+                  <TableColumn fx:id="col_tutorname" prefWidth="105.0" text="TUTOR NAME" />
+                  <TableColumn fx:id="col_givenmarks" prefWidth="112.0" text="GIVEN MARKS" />
+                  <TableColumn fx:id="col_studentname" prefWidth="135.0" text="STUDENT NAME" />
+                  <TableColumn fx:id="col_question" prefWidth="268.0" text="QUESTION" />
+                  <TableColumn fx:id="col_answer" prefWidth="309.0" text="ANSWER" />
+              </columns>
+            </TableView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
