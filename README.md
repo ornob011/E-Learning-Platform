@@ -71,24 +71,26 @@ A new learning management system has been created that enables college employees
 <p align="justify">
 Actors are any entities that interact with the system. The actors might be human users, internal applications, or external apps. The tutor, admin, parents, and students are the actors in this use case model. In this approach, the tutor is an actor who plays two parts. They can contribute data by creating, editing, and removing courses. They can do the same functions in the assessment phase, such as adding, modifying, and removing assessments. The tutor will be able to examine the evaluation once the assignment has been submitted by the students. Admin's role is to schedule parent meetings, enroll new students, manage the timetable, and check student payments. Students are actors who may access their registered courses and view assessments. They are also able to pay for courses. When parents' meetings are held, the parent actor may see the students' development and communicate with the tutor.
 
-![Tutor Use Case Diagram](assets/Picture1.png)
-    <p align="center">
+<div style="text-align:center">
+<img src="assets/Picture1.png" width="300" >
+<p align="center">
     Tutor Use Case Diagram </p>
 
-![Admin Use Case Diagram](assets/Picture2.png)
-    <p align="center">
+<img src="assets/Picture2.png" width="300" >
+<p align="center">
     Admin Use Case Diagram </p>
 
-![Student Use Case Diagram](assets/Picture3.png)
-    <p align="center">
+<img src="assets/Picture3.png" width="300" >
+<p align="center">
     Student Use Case Diagram </p>
 
-![Parent Use Case Diagram](assets/Picture4.png)
-    <p align="center">
+<img src="assets/Picture4.png" width="300" >
+<p align="center">
     Parent Use Case Diagram </p>
 
 </p>
 
+</div>
 
 ### Class Diagram
 <p align="justify">
