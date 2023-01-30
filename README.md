@@ -337,18 +337,22 @@ The Software Development Life Cycle technique was used to create the ELP as a hi
 The Agile SDLC in the ELP system is discussed in the subsequent ways.
 
 <p align="justify">
+
 - Step 1: The aims and objectives of the ELP system are addressed to stakeholders, which include students, tutors, parents, and admins. All stakeholders are asked to collaborate and highlight any difficulties they are having with the planning process. This strategy is known as a scrum. The primary goal of this ELP is to create a system that allows tutors and students to engage with one another in order to get the necessary resources for the evaluation. Parents also have a role to view students’ progress and communicating with the tutor.
 </p>
 
 <p align="justify">
+
 - Step 2: The tasks that have to be developed are now divided into parts or features, with all scrum members agreeing on what chunks must be completed. Each feature of the ELP system is created independently. It assists in the creation of tasks for each actor. Every participant has their own login page, which allows them to do the job described in the given scenario.
 </p>
 
 <p align="justify">
+
 - Step 3: A sprint is a fixed amount of time in which certain work must be done and prepared for assessment. After constructing the approved functions, it was tested with stakeholders and the functionalities were assessed. By assessing it, any faults can be quickly fixed, and there will be numerous sprints for each course.
 </p>
 
 <p align="justify">
+
 - Step 4: Once the stakeholders are completely pleased with all of the features, the project is transferred to the next development phase. This iteration is repeated until the entire project is completed.
 </p>
 </p>
