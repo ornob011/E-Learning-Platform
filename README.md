@@ -18,6 +18,7 @@ A new learning management system has been created that enables college employees
     - [Class Diagram](#class-diagram)
     - [Sequence Diagram](#sequence-diagram)
   - [System Requirements](#system-requirements)
+  - [Getting Started](#getting-started)
   - [Proposed Solution](#proposed-solution)
     - [Welcome Page](#welcome-page)
     - [Login Page](#login-page)
@@ -126,6 +127,26 @@ This sequence diagram depicted a communication between a tutor, an administrator
 - Internet connection: High-speed internet connection is recommended
 - OpenJDK 1.8.0_271
 - OpenJFX-11.0.2_x64_bin-sdk
+
+## Getting Started
+
+1. Clone the repository to your local machine
+
+    ```
+    git clone https://github.com/ornob011/E-Learning-Platform
+    ```
+
+2. Navigate to the project directory
+    ```
+    cd E-Learning-Platform
+    ```
+
+3. Install the required dependencies with your preferred IDE
+
+4. To simply want to run the software
+   ```
+   java -jar DELP.jar
+   ``` 
 
 ## Proposed Solution
 The prototype of the ELP has been shown in this section. With the login page, the mentioned actors from the Usecase model can enter into the system. Tutor, admin, student, and parent are the actors.
